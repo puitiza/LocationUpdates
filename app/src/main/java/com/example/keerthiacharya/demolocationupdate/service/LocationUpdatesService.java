@@ -69,6 +69,9 @@ public class LocationUpdatesService extends Service{
     private NotificationManager mNotificationManager;
     private boolean mChangingConfiguration = false;
 
+    /**
+     * Estoy inicializando el mFusedLocationClient
+     */
     @Override
     public void onCreate() {
         super.onCreate();
